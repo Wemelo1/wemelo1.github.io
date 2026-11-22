@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Pr0_M1se: engineering student at the University of Benin and self-taught LLM developer. CodeRouter AI, an autonomous pitch agent, an exam tutor and more." />
+<title>Pr0_M1se | Started from zero code, now ships AI apps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="top">
+  <a class="mark" href="#top">Pr0_M1se</a>
+  <nav aria-label="Main">
+    <a href="#projects">Projects</a>
+    <a href="#next">Next</a>
+    <a href="#log">Build log</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <h1>Started from zero code.<br />Now I ship AI apps.</h1>
+    <p class="lede">I'm an engineering student at the University of Benin, Nigeria. I taught myself to build with LLMs, and I like projects where a model has to make a call: which model answers, what a pitch should say, how to explain an exam question.</p>
+    <p class="links">
+      <a class="btn" href="#projects">See what I've built</a>
+      <a class="plain" href="https://github.com/Wemelo1">github.com/Wemelo1</a>
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>What I've built</h2>
+
+    <article class="row">
+      <div class="meta">
+        <h3>CodeRouter AI</h3>
+        <p>Hackathon project, team of three</p>
+      </div>
+      <div class="body">
+        <p>Scores every question from 1 to 5 for difficulty. Easy ones go to a small local model, hard ones to a hosted model, so you only pay for power when you need it. I built the backend and the LangGraph routing. Submitted to the AMD Developer Hackathon: ACT II.</p>
+        <p class="stack">LangGraph, FastAPI, Ollama, Fireworks AI, scikit-learn, Docker</p>
+        <a href="https://github.com/Wemelo1/coderouter-ai">View the code</a>
+      </div>
+    </article>
+
+    <article class="row">
+      <div class="meta">
+        <h3>Autonomous Pitch Agent</h3>
+        <p>Submitted to Agensi as a free skill</p>
+      </div>
+      <div class="body">
+        <p>Reads a company's website and writes a cold pitch for it. A second agent checks the quality, and the pitch is rewritten if it fails.</p>
+        <p class="stack">LLaMA 3.3, multi-agent workflow, web scraping</p>
+        <a href="https://github.com/Wemelo1/autonomous-pitch-agent">View the code</a>
+      </div>
+    </article>
+
+    <article class="row">
+      <div class="meta">
+        <h3>JAMB and WAEC exam tutor</h3>
+        <p>Deployed, public</p>
+      </div>
+      <div class="body">
+        <p>An AI tutor for Nigerian secondary-school exams, with a PDF quiz feature for turning notes into practice questions.</p>
+        <p class="stack">Python, Groq API, Streamlit</p>
+        <a href="https://github.com/Wemelo1/llm-assistant">View the code</a>
+      </div>
+    </article>
+
+    <article class="row">
+      <div class="meta">
+        <h3>ScrollSense</h3>
+        <p>In design</p>
+      </div>
+      <div class="body">
+        <p>A reader for webtoons, PDFs and long documents that scrolls by itself. You take a short reading-speed test first, so it moves at your pace.</p>
+      </div>
+    </article>
+
+    <p class="also">Also built while learning: a Nigerian football analyst chatbot and a naira-to-USD converter agent.</p>
+  </section>
+
+  <section id="next">
+    <h2>What I'm exploring next</h2>
+    <article class="row">
+      <div class="meta">
+        <h3>Offline app backup and cloning</h3>
+        <p>Early concept, for places where mobile data is expensive</p>
+      </div>
+      <div class="body">
+        <p>Reinstalling apps and re-downloading everything costs real money in Nigeria and India. This tool would back up and restore apps without spending data. The hard part, and the part I think is worth building, is working out how to restore each app properly.</p>
+        <ul class="parts">
+          <li><b>Offline sharing:</b> send app installers between phones over WiFi Direct or Bluetooth.</li>
+          <li><b>Smart backup:</b> save only what matters, like media, documents and game progress.</li>
+          <li><b>Restore assistant:</b> walk you through reinstalling and getting each app back to how it was.</li>
+          <li><b>Data saver mode:</b> show how much data you saved.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section id="log">
+    <h2>Build log</h2>
+    <ol class="log">
+      <li><time>Apr 2026</time><p>Started a self-study LLM engineering roadmap with no coding background.</p></li>
+      <li><time>Jun 2026</time><p>Finished it: Python, prompt engineering, RAG, agents and LangGraph. Deployed two public apps.</p></li>
+      <li><time>Jul 2026</time><p>Built CodeRouter AI with two teammates and submitted it to the AMD hackathon before the deadline.</p></li>
+      <li><time>Nov 2026</time><p>Packaged the pitch agent as a skill and submitted it to the Agensi marketplace.</p></li>
+    </ol>
+  </section>
+
+  <section id="stack">
+    <h2>What I build with</h2>
+    <p class="tools">Python, Groq API, LangChain, LangGraph, ChromaDB for RAG, Streamlit, FastAPI, scikit-learn, Ollama, Docker and GitHub Actions.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Say hello</h2>
+    <p class="tools">Working on something that needs an LLM? Open an issue, follow along, or send a message through GitHub.</p>
+    <!-- Add your email here when you want it public: <a href="mailto:you@example.com">you@example.com</a> -->
+    <dl class="block" aria-label="Title block">
+      <div class="wide"><dt>Drawing</dt><dd>Pr0_M1se portfolio</dd></div>
+      <div><dt>Drawn by</dt><dd>Pr0_M1se</dd></div>
+      <div><dt>Institution</dt><dd>University of Benin</dd></div>
+      <div><dt>Contact</dt><dd><a href="https://github.com/Wemelo1">github.com/Wemelo1</a></dd></div>
+      <div><dt>Revision</dt><dd id="year">2026</dd></div>
+    </dl>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
